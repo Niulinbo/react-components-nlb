@@ -4,8 +4,8 @@ import { Button } from "@sinocontrol/react-lib";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
 
-const Home = lazy(() => import(/* webpackChunkName: 'home' */ "./pages/Home"));
-const About = lazy(() => import(/* webpackChunkName: 'about' */ "./pages/About"));
+const Home = lazy(() => import(/* webpackChunkName: 'home' */ "./module/Home"));
+const About = lazy(() => import(/* webpackChunkName: 'about' */ "./module/About"));
 
 function App() {
   return (
