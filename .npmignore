@@ -1,0 +1,6 @@
+/src
+/public
+/config
+/.history
+.eslintrc.js
+babel.config.js
